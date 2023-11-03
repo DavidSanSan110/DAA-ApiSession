@@ -20,5 +20,5 @@ There is 1 service:
 2. When any view request data, the ViewModel class will call the ServiceApi class to retrieve the data from the API.
 3. Then, the ViewModel class will parse the data using the corresponding model and return it to the view.
 
-- Eg. ITunesView -> ViewModel (fetchITunesItems) -> (1.ServiceApi (fetchItems) 2.ITunesModel (decode))
-- Eg. NasaView -> ViewModel (fetchNasaItems) -> (1.ServiceApi (fetchItems) 2.NasaModel (decode))
+- Eg. ITunesView -> ViewModel (fetchITunesItems) -> (ServiceApi (fetchItems) && ITunesModel (decode))
+- Eg. NasaView -> ViewModel (fetchNasaItems) -> (ServiceApi (fetchItems) && NasaModel (decode))
