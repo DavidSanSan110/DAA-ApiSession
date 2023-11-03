@@ -1,5 +1,9 @@
 # DAA - ApiSession
 
+<p align="center">
+    <a href="https://www.youtube.com/shorts/O-HHYAV_Guk"><img src="https://img.youtube.com/vi/O-HHYAV_Guk/0.jpg" alt="IMAGE ALT TEXT"></a>
+</p>
+
 ## Architecture explanation
 There are 2 data models:
 - ITunesModel: This model is used to store the data from the iTunes API
